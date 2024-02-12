@@ -55,6 +55,7 @@ body {
     background: #313534;
     color: #fff;
     padding: 20px;
+    display: inline-block;
 }
 
 .section {
@@ -83,5 +84,11 @@ body {
 
     .section {
         padding: 30px 40px;
+    }
+}
+
+@media (max-width: 457px){
+    .textBg{
+        font-size: 12px;
     }
 }
